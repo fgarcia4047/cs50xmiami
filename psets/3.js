@@ -10,3 +10,10 @@ http://math2.org/math/geometry/circles.htm
 */
 
 // write your solution here...
+
+var radius = 5; 
+	var cirucumference = 3.14 *(radius * 2); 
+	var area = 3.14 * (radius * radius); 
+
+	console.log("The cirucumference is " + cirucumference)
+	console.log("The area is " + area);

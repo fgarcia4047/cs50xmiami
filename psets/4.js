@@ -2,7 +2,7 @@
 The Temperature Converter
 
 It's hot out! Let's make a converter based on the steps here:
-http://www.mathsisfun.com/temperature-conversion.html
+c
 
 - Store a celsius temperature into a variable.
 - Convert it to fahrenheit and output "NN°C is NN°F".
@@ -11,3 +11,11 @@ http://www.mathsisfun.com/temperature-conversion.html
 */
 
 // write your solution here...
+// Degrees C to F. 
+var c = 30;
+var ctof = (((c * 9) / 5) + 32);
+console.log(c + "°C is " + ctof+ "°F" )
+// Degrees F to C. 
+var f =80; 
+var ftoc = (((f - 32)* 5) /9 );
+console.log(f +"°F is "+ ftoc + "°C")

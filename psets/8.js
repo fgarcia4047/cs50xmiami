@@ -15,7 +15,28 @@ For example:
   verbing('go'): 'go'
 
 */
+var word = "swiming";
+function verbing(word)
 
-function verbing(word) {
+	{
+		//console.log(word.length)
+		if(word.length >= 3 && word.substring((word.length - 3),word.length) === "ing") // THIS PART NOT WORKING, NO IDEA WHY !?!?!?
+		{
+
+			console.log(word + "ly")
+		}
+		else
+		{
+		//console.log(word.substring(word.length -2 , word.length))
+		//console.log(word.substring(4,7))
+		console.log(word + "ing")
+
+
+		}
+
+	}
+	
   // write your solution here...
-}
+
+
+verbing(word);

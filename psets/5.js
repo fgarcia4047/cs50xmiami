@@ -10,6 +10,19 @@ For example:
   DrEvil(1000000): 1000000 dollars (pinky)
 */
 
-function drEvil(amount) {
+	var amount;
+	function drEvil(amount) {
   // write your solution here...
-}
+ 	amount = prompt("How much money do you Demand Dr. Evil?")
+  if (amount < 1000000000)
+  {
+  	console.log( "Dr.Evil " +amount+": $"+ amount+ " dollars");
+  }
+  else 
+  {
+  	console.log("Dr. Evil " +amount+": $" +amount+ " dollars (pinky)");
+  }
+
+};
+
+drEvil(amount);

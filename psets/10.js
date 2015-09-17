@@ -10,3 +10,37 @@ Write a function named tellFortune that:
 */
 
 // write your solution here...
+function Fortune(numChildren, partnerName, geoLocal, jobTitle)
+{
+var numChildren = 2;
+
+var partnerName = "Taylor Swift";
+
+var geoLocal = "Miami";
+
+var jobTitle = "Hacker";
+
+console.log("You will be a "+ jobTitle+ " in " + geoLocal + ", and married\
+ to " + partnerName + " with " + numChildren+ " kids.");
+};
+
+Fortune();
+
+function Fortune1(numChildren, partnerName, geoLocal, jobTitle)
+{
+var numChildren = 3;
+
+var partnerName = "Amanda Swift";
+
+var geoLocal = "Boston";
+
+var jobTitle = "Jordan";
+
+console.log("You will be a "+ jobTitle+ " in " + geoLocal + ", and married\
+ to " + partnerName + " with " + numChildren+ " kids.");
+};
+
+Fortune1();
+
+
+

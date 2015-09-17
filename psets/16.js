@@ -11,3 +11,28 @@ and log the result to make sure it works.
 */
 
 // write your solution here...
+var language = "es"; 
+function helloWorld(language)
+	{
+		switch(language)
+		{
+			case "de":
+			console.log("Hola Mon")
+			break;
+
+			case "en":
+			console.log("Hello World")
+			break;
+
+			case "es": 
+			console.log("Hola Mundo")
+			break;
+
+			default: 
+			console.log ("Hello World")
+		}
+		
+	}
+
+
+helloWorld(language);

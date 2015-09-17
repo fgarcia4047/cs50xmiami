@@ -11,7 +11,45 @@ For example:
   mixUp('dog', 'dinner'): 'dig donner'
 Look up the JavaScript string reference to find methods which may be useful!
 */
+var a = "mix";
+var b = "pod";
 
-function mixUp(a, b) {
+function mixUp(a, b) 
+{
   // write your solution here...
+//var alength = console.log(a.length -1)
+//var blength = console.log(b.length -1)
+var ab = a.replace(a[1], b[1])
+
+var ba = b.replace(b[1], a[1])
+
+
+console.log(ab + " " + ba)
+
 }
+
+
+mixUp(a, b);
+
+
+/* Scond Way works !!  
+function MixUpa(a, b)
+{
+	var ab = a.replace(a[(a.length -2)], b[(b.length -2)])
+	console.log (ab)
+}
+MixUpa(a, b)
+
+*/ 
+
+
+/*
+var c = a.replace(a, b);
+
+console.log(a + "" + b + "mixed = " + c); 
+
+var str = "Visit Microsoft!";
+var res = str.replace("Microsoft", "W3Schools");
+console.log(str + " " + res	)
+
+*/

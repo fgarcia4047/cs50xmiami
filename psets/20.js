@@ -9,3 +9,13 @@ Create an array to hold your top choices (colors, presidents, whatever).
 */
 
 // write your solution here...
+
+function fav()
+{
+	var favFoods = ["steak", "pizza", "hamburger", "ribs", "steak"]
+
+
+	console.log( "My #1 choice is " +favFoods[1])
+}
+
+fav();

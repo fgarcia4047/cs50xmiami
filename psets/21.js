@@ -18,3 +18,11 @@ Never forget another recipe!
 */
 
 // write your solution here...
+function recipe()
+{
+	var card = {
+		tittle:
+		servings:
+		ingredient = []
+	}
+}

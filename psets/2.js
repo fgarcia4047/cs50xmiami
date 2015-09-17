@@ -12,3 +12,10 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 */
 
 // write your solution here...
+
+	var age = 27;
+	var maxage = 100;
+	var dailyeat = 2;
+	var ttl = maxage - age;
+
+	console.log("You will need "+ (ttl * 365)*dailyeat + " to last you until the ripe old age of "+ maxage); 

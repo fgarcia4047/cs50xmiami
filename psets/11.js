@@ -12,3 +12,35 @@ Write a function named calculateAge that:
 */
 
 // write your solution here...
+var bday = 1987;
+var current = 2015;
+
+function calculateAge(bday, current)
+{
+	var result0 = current - bday
+	console.log ("You are either " + result0 + " or " + (result0 -1))
+}
+
+calculateAge(bday, current)
+
+var bday1 = 1900;
+var current1 = 2015;
+
+function calculateAge1(bday, current)
+{
+	var result01 = current1 - bday1
+	console.log ("You are either " + result01 + " or " + (result01 -1))
+}
+
+calculateAge(bday1, current1)
+
+var bday2 = 1981;
+var current2 = 2015;
+
+function calculateAge2(bday, current)
+{
+	var result02 = current2 - bday2
+	console.log ("You are either " + result02 + " or " + (result02 -1))
+}
+
+calculateAge2(bday, current)
